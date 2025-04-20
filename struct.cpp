@@ -7,3 +7,16 @@ struct Mahasiswa
     string nim;
     string alamat;
 };
+
+int main()
+{
+    // membuat object struct
+    Mahasiswa mhs;
+
+    cout << "masukkan nim = ";
+    cin >> mhs.nim;
+    cout << "Masukkan nama = ";
+    cin >> mhs.nama;
+    cout << "Masukkan alamat = ";
+    cin >> mhs.alamat
+}
